@@ -27,7 +27,8 @@ button {
     height: 72px;
     background: #1F2937;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 0 200px;
     align-items: center;
 }
 
@@ -58,7 +59,7 @@ button {
     justify-content: center;
     align-items: center;
     gap: 48px;
-    padding: 150px 250px;
+    padding: 150px 200px;
 }
 
 .intial-container {
