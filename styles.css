@@ -122,6 +122,28 @@ button {
     background: #E5E7EB;
     display: flex;
     flex-grow: 1;
+    flex-direction: column;
+}
+
+.quote .container {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    padding: 150px 300px;
+}
+
+.quote .main-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.quote .secondary-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: right;
 }
 
 .sign-up {
